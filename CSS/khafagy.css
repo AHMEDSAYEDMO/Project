@@ -1,0 +1,78 @@
+*{
+    font-family: 'Cairo', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:   #0f002b;
+}
+/* Content Start */
+
+.khafagy{
+    padding :50px;
+    margin: 50px;
+    background-image: #0f002b;
+    border-radius: 25px; 
+}
+
+.khafagy h4{
+    font-size: 30px;
+    color:rgb(29, 29, 29) ;
+    background: #ffffff ;
+    border-radius: 10px;
+}
+
+.khafagy .khafagy-sub  img{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    margin-top:30px ;
+}
+
+.khafagy .khafagy-sub  img:hover{
+    transform: scale(1.06);
+}
+
+.khafagy .khafagy-sub  ul li a{
+    margin-top: 20px;
+    color: rgb(48, 48, 48);
+    text-decoration:  none;
+    color: #222222;
+}
+
+.khafagy .khafagy-sub  ul li{
+    text-align: center;
+    list-style-type: none;
+    font-size: 17px;
+    margin-top: 11px;
+    background: #ffffff ;
+    background: #ffffff ;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.khafagy .khafagy-sub  ul li a:hover{
+    transform: scale(1.1);
+    margin-right: 50px;
+    color:#b9a5eb;
+}
+
+.main {
+    max-height: 550px;;
+    background-color: #262626;
+    color: white;
+    font-size: 38pt;
+    text-align: center;
+    line-height: 550px;
+}
+
+/* Content End */

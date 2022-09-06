@@ -1,0 +1,144 @@
+*{
+   font-family: 'Cairo', sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+body{
+   background:   #0f002b;
+}
+
+/* Services Style Start */
+
+.zz{
+   display: inline-block;
+}
+
+.services-section {
+	margin-top: 140px;
+   margin: 50px;
+   background:   #0f002b;
+}
+
+.section-heading{
+   padding:50px;
+}
+
+.services-section .section-heading h2 {
+	color: #f6eef7;
+   font-size: 60px;
+   margin: 5px;
+   margin-top: -170px;
+}
+
+.services-section .service-item {
+	background-color: #f1f0fa;
+	border-radius: 10px;
+	padding: 50px 40px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.services-page .service-item {
+	margin-bottom: 30px;
+   
+}
+
+.services-section .service-item i {
+   background-image: url(../images/info-button.png);
+   background-position: center;
+   background-size: cover;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 35px;
+}
+
+.services-section .service-item i:hover{
+   transform: scale(1.1); 
+}
+
+.services-section .service-item h4 {
+	margin-top: 35px;
+	font-size: 25px;
+	color: #1e1e1e;
+	text-transform: capitalize;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	margin-bottom: 30px;
+}
+
+.services-section .service-item h4:hover {
+   transform: scale(1.1); 
+   cursor: pointer;
+}
+
+.main {
+   max-height: 550px;;
+   background-color: #262626;
+   color: white;
+   font-size: 40pt;
+   text-align: center;
+   line-height: 550px;
+}
+
+/* Services Style End */
+
+/* Section of the team Start */
+
+.team-project {
+   background-color: #f1f0fa;
+   border-radius: 10px;;
+}
+
+.ourteam {
+   font-size: 40px;
+   color: #1e1e1e;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.team {
+   font-size: 40px;
+   color: #1e1e1e;
+   text-align: center;
+   margin-bottom: 40px;
+   margin: 0px;
+}
+
+.flex {
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+   margin: 20px;
+}
+.ahmed , .mohamed , .Bishoy , .aya , .aya1 , .ayed , .wafaa , .rola , .nourhan , .andrew{
+   cursor: pointer;
+   width: 80px;
+   text-align: center;
+   border-radius: 20%;
+   margin: 7px;
+}
+
+.team-project img:hover {
+   transform: scale(1.4);
+}
+
+.ahmed , .mohamed , .Bishoy , .aya , .aya1 , .ayed , .wafaa , .rola , .nourhan , .andrew {
+   margin-top: 10px;
+}
+
+.ahmed , .mohamed , .Bishoy , .aya , .aya1 , .ayed , .wafaa , .rola , .nourhan , .andrew {
+   color:rgb(5, 5, 5);
+}
+
+.para {
+   margin-bottom: 20px;;
+}
+
+/* Section of the team End */

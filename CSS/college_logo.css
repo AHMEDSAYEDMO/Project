@@ -1,0 +1,48 @@
+*{
+    font-family: 'Cairo', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background:   #0f002b; */
+}
+
+body {
+    background-color: #0f002b;
+}
+
+/* Content Start */
+
+h1 {
+    font-size: 40px;
+    width: 20%;
+    text-align: center;
+    border: 3px solid #eeeaff;
+    border-radius: 30px;;
+    /* padding-right: 100px; */
+    color: #f1b7f3;
+    margin: 30px;
+}
+
+.pic-logo {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.05s;
+}
+
+.pic-logo:hover {
+    transform: scale(1.01);
+    transition: 0.05s;
+}
+
+p {
+    color: #fae9fa;
+    font-size: 22px;
+    margin: 30px;
+}
+
+/* Content End */
